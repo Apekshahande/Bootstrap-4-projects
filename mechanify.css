@@ -1,0 +1,95 @@
+.active :hover{
+  color:#26c6da !important;
+  
+  background: rgba(0,0,0,.1);
+  height: 70px;
+  width: 100px;
+}
+
+.footer_li { padding:7px; }
+/* it's for giving space to 2 container */
+
+footer {
+background: #000!important;
+
+color: white;
+margin-top:100px;
+font-size: 14px;
+/* position: fixed;
+left: 0;
+bottom: 0;
+width: 100%; */
+}
+
+.footerimg{
+width: 70%;
+height: 40%;
+margin-left:50px;
+}
+
+.footer-middle {
+padding-top: 3em;
+color: white;
+}
+/*  it's for giving space to top of the footer */
+
+h4{
+color:#9e9e9e!important;
+}
+/* header of the footer. */
+
+footer a {
+color: #fff;  
+}
+/* instragram link logo */
+
+
+/* About Us */
+
+.container{
+  color: rgb(7, 18, 40); 
+  font: 18px Heebo, sans-serif;
+  list-style-type: none;
+  margin: 49px;
+ 
+  /* margin-bottom: -0.25rem !important; */
+
+
+}
+.container li{
+padding-bottom: 30px;
+
+}
+strong{
+  font-weight: 550;
+  font-size: 2.48rem;
+ 
+}
+
+
+
+/* Mechanify Page */
+
+
+#img{
+  background:url(./img/navbar.jpg) no-repeat  ;
+  width: 100%;
+  margin-top: -15%;
+  height: 850px;
+ 
+
+  /* up img cut */
+}
+
+
+
+
+
+
+
+/* Contact Us */
+
+
+
+
+

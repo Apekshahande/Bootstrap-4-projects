@@ -1,0 +1,327 @@
+ <!-- This is boiler plate for bootstrap -->
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <!-- email icon. -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+    
+
+
+    <link rel="stylesheet" href="mechanify.css" class="css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+    <title>Contanct Us</title>
+
+    <style>
+
+    .info {
+        list-style-type: none;
+        position: relative;
+        margin: 0.5rem 0px 1rem;
+        border-width: 1px;
+        border-style: solid;
+        border-color: rgb(224, 224, 224);
+        border-image: initial;
+        border-radius: 2px;
+        overflow: hidden;
+    }
+    /* border box . */
+
+    .info.with-header .info-header {
+      background-color: rgb(255, 255, 255);
+      border-bottom: 1px solid rgb(224, 224, 224);
+        /* bottom line. */
+      padding: 20px 20px;
+    }
+    /*  Border of header. */
+
+    .info.with-header .info-item {
+        padding-left: 30px;
+    /* it will take 30 px away form it. */
+    }
+    .info .info-item {
+        background-color: rgb(255, 255, 255);
+        line-height: 1.5rem;
+        padding: 10px 20px;
+        margin: 0px;
+        border-bottom: 1px solid rgb(224, 224, 224);
+    }
+
+
+    .card {
+      background-color: rgb(255, 255, 255);
+      transition: box-shadow 0.25s ease 0s;
+      margin: 0.5rem 0px 1rem;
+      border-radius: 2px;
+   
+    }
+
+    .card {
+        padding: 24px;
+    }
+
+    .btn, .card, .collapsible,  nav {
+        box-shadow: rgba(0, 0, 0, 0.14) 0px 2px 2px 0px, rgba(0, 0, 0, 0.12) 0px 3px 1px -2px, rgba(0, 0, 0, 0.2) 0px 1px 5px 0px;
+    }
+    /* Shadow of the class. */
+
+
+
+
+  .white-text {
+      color: rgb(255, 255, 255) !important;
+  }
+
+  .blue {
+      background-color: rgb(33, 150, 243) !important;
+  }
+
+
+  .blue-text {
+      color: rgb(33, 150, 243) !important;
+  }
+
+
+
+
+.input-field > label {
+    
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    font-size: 1rem;
+    
+    transform: translateY(12px);
+    
+}
+
+  input {
+      background: transparent;
+      border: none;
+      outline: 0;
+      border-bottom: 2px solid #000000;
+      font-size: 2.6rem;
+  }
+
+  .input-field {
+    
+    
+     
+      position: relative;
+      margin-top: 1rem;
+      margin-bottom: 1rem;
+  }
+
+
+  input:focus + label {
+    transform: translate(0, 0) scale(1);
+    cursor: pointer;
+  }
+  /* lable to current point to top. */
+
+
+  .white-card-bg {
+    background-color: rgb(255, 255, 255) !important;
+  } 
+
+
+
+
+
+
+
+
+    </style>
+    
+
+  </head>
+  <body>
+     <nav class="navbar navbar-expand-lg navbar-light bg-light">
+         
+         <div class="container-fluid " >
+             <div class="row justify-content-md-end">
+                 <div class="col-md-2 ">
+                     <a class="navbar-brand" href="#">
+                     <img src="./img/logo.png" width="200px" height="60px"  class ="d-inline-block  align-top" alt="">
+                     </a>  
+                 </div>
+                 </div>
+                 <div class="col-md-4 ">
+                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                         <b><ul class="navbar-nav mr-auto ">
+                            <li class="nav-item active ">
+                              <a class="nav-link" href="./mechanify.html">Home <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item active ">
+                              <a class="nav-link" href="./Aboutus.html">About Us <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item active ">
+                              <a class="nav-link" href="./ContactUs.html">Contact Us<span class="sr-only">(current)</span></a>
+                            </li>
+                          </ul></b>
+                      </div> 
+ 
+                 </div>
+             </div>
+         </div> 
+       </nav>
+
+
+       <!-- Container . -->
+
+
+      <div class="container">
+        <div class="row">
+          <div class="col s12 m6">
+            <div class="card blue white-text text-center">
+              <i class="material-icons">
+              email</i>
+              <h5>Address</h5>
+            </div>
+           
+            <ul class="info with-header">
+              <li class="info-header">
+                <h4>Main Office</h4></li>
+                <li class="info-item">
+                  <i class="fas fa-map-marker-alt" aria-hidden="true"></i>
+                  Head Office : <br>Rohini Delhi-110085</li>
+                  <li class="info-item">
+                    <i class="fas fa-phone" aria-hidden="true">
+                    </i> +91 - 966-793-7517</li><li class="info-item">
+                      <i class="fas fa-phone" aria-hidden="true"></i> +91 - 966-795-9059</li>
+                      <li class="info-item"><i class="fas fa-envelope-square" aria-hidden="true"></i> Reach@mechanify.in</li>
+                    </ul></div>
+
+          
+          <div class="col s12 m6">
+            <div class="card white-card-bg ">
+              <h5>For B2b Clients </h5>
+              <form>
+                <div class="input-field ">
+                  <input type="text" id="name">
+                  <label for="name" class="blue-text">Name</label>
+              </div>
+              <div class="input-field">
+                  <input type="email" id="email" >
+                  <label for="email" class="blue-text">Email</label>
+                </div>
+              <div class="input-field">
+                <input type="text" id="phone">
+                <label for="phone" class="blue-text">Phone</label>
+              </div>
+              <div class="input-field">
+                <input type="text" id="message" class="materialize-textarea" data-length="120">
+                <label for="message" class="blue-text">Message</label>
+              </div>
+              <input type="submit" class="btn blue" value="submit">
+            </form>
+          </div></div>
+         
+        </div>
+      </div>
+
+
+
+        <!-- Footer -->
+      
+      
+
+      <!-- Footer -->
+      
+      
+
+      <footer class="mainfooter" role="contentinfo">
+        <div class="footer-middle">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-3 col-sm-6">
+              <!--Column1-->
+              <div class="footer-pad ">
+                <img src="./img/logo.png" alt="Menchanify" class = "footerimg">
+                
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+              <!--Column1-->
+              <div class="footer-pad">
+                <h4>Address </h4>
+                <div class="hr" style="height: 5px; width: 150px;  background-color: white;"></div>
+                <ul class="list-unstyled footer_li ">
+                  <li class="footer_li ">Head Office:<br />
+                  Rohini Delhi - 110085</li>
+                  <li class="footer_li ">Phone: +91 - 966-793-7517</li>
+                  <li class="footer_li ">Phone: +91 - 966-795-9059</li>
+                  <li class="footer_li ">Email: Reach@mechanify.in</li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+              <!--Column1-->
+              <div class="footer-pad">
+                <h4>Service</h4>
+                <div class="hr" style="height: 5px; width: 150px; background-color: white;"></div>
+                <ul class="list-unstyled footer_li">
+                  <li>Engine Repair</li>
+                  <li >Tyre Replacement</li>
+                  <li >Transmission</li>
+                  <li >Extended Warranty</li>
+                  <li >Batteries</li>
+                  <li >Break Repair</li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <!--Column1-->
+                <div class="footer-pad footer_li">
+                  <h4>Popular Brand</h4>
+                  <div class="hr" style="height: 5px; width: 150px; background-color: white;"></div>
+                  <ul class="list-unstyled footer_li ">
+                    <li>Royal Enfield</li>
+                    <li>Suzuki</li>
+                    <li>Hero</li>
+                    <li>Honda</li>
+                    <li>Bajaj</li>
+                    <li>Yahama</li>
+                    <li>TVS</li>
+                    <li>Jawa</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="container-fluid " style="margin-left:13%">
+                <div class="row  ">
+                    <div class="col-md-6 " >
+                      <p> © 2020 Mechanify Services Pvt Ltd</p>
+                      
+                    </div>
+                    <div class="col-md-6">
+                        
+                        <a href="https://www.instagram.com/"><i class="fab fa-instagram fa-w-14 "style="font-size:30px; margin-left:60% "></i>
+                        </a>
+                    </div>
+              
+                </div>
+            </div>
+      </footer>
+        
+ 
+     
+</body>
+    
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" ></script>
+</html>
+ 
+ <!-- this css file somebody stored in there server then we can use. that's what the CDN is -->
+
+  
+ 
